@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Estilos para el componente FortuneCookie */
+.fortune-cookie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+  margin: 5rem auto;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fortune-cookie p:first-child {
+  font-size: 0.5em;
+}
+
+.fortune-cookie p:last-child {
+  font-size: 0.6em;
+}
+
+/* Estilos para el componente Button */
+.button {
+  display: block;
+  margin: 25px auto;
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 1em;
+}
+
+.button:hover {
+  background-color: #23527c;
+  cursor: pointer;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  /* Estilos específicos para dispositivos móviles aquí */
+  body {
+    background-color: lightgray;
+  }
+
+  .fortune-cookie {
+    width: 80%;
+  }
+
+  .fortune-cookie p:first-child {
+    font-size: 1.5em;
+  }
+
+  .fortune-cookie p:last-child {
+    font-size: 1.2em;
+  }
+}
+
+/* Estilos para páginas web en PC */
+@media (min-width: 768px) {
+  /* Estilos específicos para páginas web en PC aquí */
+  body {
+    background-color: white;
+  }
+
+  .fortune-cookie {
+    width: 50%;
+  }
+
+  .fortune-cookie p:first-child {
+    font-size: 2em;
+  }
+
+  .fortune-cookie p:last-child {
+    font-size: 1.5em;
+  }
+}
+
+
