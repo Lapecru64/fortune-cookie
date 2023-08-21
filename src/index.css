@@ -2,9 +2,8 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh; /* Agregamos altura total */
 }
-
-
 
 /* Estilos para el componente FortuneCookie */
 .fortune-cookie {
@@ -42,7 +41,6 @@ body {
   background-color: #23527c;
   cursor: pointer;
 }
-
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 767px) {
@@ -83,5 +81,7 @@ body {
     font-size: 1.5em;
   }
 }
+
+
 
 
